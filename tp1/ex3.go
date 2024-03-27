@@ -21,7 +21,8 @@ func ejemplo2(n int, m int) {
   for j := 0; j < m; j++ {
     fmt.Printf("(j: %v)", j)
   }
-} // O(n + m) -> not sure
+} // lineal -> O(n + m)
+  // simplificando queda en O(n)
 
 func ejemplo3(n int) {
   for i := 0; i < n; i++ {
