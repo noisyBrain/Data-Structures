@@ -37,4 +37,6 @@ func ejemplo4(n int) {
       fmt.Printf("(i: %v, j: %v)", i, j)
     }
   }
-} // exponencial O(n^n)
+} // cuadrática porque:
+  // [n.(n - 1)] / 2 = (n² - n) / 2
+  // simplificando queda de O(n2)
