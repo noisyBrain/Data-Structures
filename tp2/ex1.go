@@ -5,7 +5,7 @@
 
 */
 
-package main;
+package tp2;
 
 import "fmt";
 
@@ -29,9 +29,9 @@ func takeInput(input *int) *int  {
   return input;
 }
 
-func main()  {
+func LaunchEx1()  {
   var input int;
-  takeInput(&input);
 
+  takeInput(&input);
   countDown(input);
 }
