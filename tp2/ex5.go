@@ -1,3 +1,10 @@
+/*
+
+  Posición mayúscula: dada una cadena de caracteres, devuelve la posición en la que se
+  encuentra la primera letra mayúscula.
+
+*/
+
 package tp2
 
 import "unicode"

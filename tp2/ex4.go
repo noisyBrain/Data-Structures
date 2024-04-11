@@ -1,3 +1,9 @@
+/*
+
+  Vocales y consonantes: devuelve la cantidad de vocales y de consonantes que contiene una cadena.
+
+*/
+
 package tp2
 
 import (

@@ -1,3 +1,9 @@
+/*
+
+  Factorial de un número entero.
+
+*/
+
 package tp2
 
 func Factorial(num int) int {

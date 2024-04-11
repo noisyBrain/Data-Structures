@@ -1,3 +1,10 @@
+/*
+
+  Suma de enteros: permite sumar todos los números enteros comprendidos entre un
+  parámetro de inicio y uno de fin.
+
+*/
+
 package tp2;
 
 func SumInts(num1 int, num2 int) int {
