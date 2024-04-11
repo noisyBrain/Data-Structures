@@ -26,4 +26,9 @@ func main() {
   fmt.Println("\nExercise 6:")
   arr := []int {0, 6, 2, 3}
   fmt.Println(tp2.GreaterElement(arr)) // should return 6
+
+  // ex 7
+  fmt.Println("\nExercise 7:")
+  arr7 := []int {0, 1, 2, 3}
+  fmt.Println(tp2.Invertir(arr7)) // should return [3, 2, 1, 0]
 }
