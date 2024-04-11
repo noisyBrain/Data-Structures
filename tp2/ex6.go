@@ -17,3 +17,7 @@ func greaterElement(arr []int, gt int) int {
 
   return greaterElement(arr[1:], gt)
 }
+
+func GreaterElement(arr []int) int {
+  return greaterElement(arr, 0)
+}

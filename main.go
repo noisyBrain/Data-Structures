@@ -1,8 +1,8 @@
 package main
 
 import (
-  "fmt"
-  "tps/tp2"
+	"fmt"
+	"tps/tp2"
 )
 
 func main() {
@@ -21,4 +21,9 @@ func main() {
   // ex 5
   fmt.Println("\nExercise 5:")
   fmt.Println(tp2.FirstMayusPosition("hola como Te va")) // should return 10
+
+  // ex 6
+  fmt.Println("\nExercise 6:")
+  arr := []int {0, 6, 2, 3}
+  fmt.Println(tp2.GreaterElement(arr)) // should return 6
 }
